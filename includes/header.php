@@ -28,16 +28,16 @@ $baseurl = "http://localhost/mywashman/";
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <meta content="Metronic Shop UI description" name="description">
-  <meta content="Metronic Shop UI keywords" name="keywords">
+  <meta content="Unlimited Laundry for a monthly fee." name="description">
+  <meta content="Laundry, Dry, Cleaning, Dry cleaners, laundromat, washman, ironing, free pickup and delivery" name="keywords">
   <meta content="keenthemes" name="author">
 
-  <meta property="og:site_name" content="-CUSTOMER VALUE-">
-  <meta property="og:title" content="-CUSTOMER VALUE-">
-  <meta property="og:description" content="-CUSTOMER VALUE-">
+  <meta property="og:site_name" content="http://www.mywashman.com">
+  <meta property="og:title" content="My washman">
+  <meta property="og:description" content="First online laundry package subscription in Ibadan, Nigeria">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
-  <meta property="og:url" content="-CUSTOMER VALUE-">
+  <meta property="og:image" content="http://www.mywashman.com/assets/images/logos/logo.png"><!-- link to image for socio -->
+  <meta property="og:url" content="http://www.mywashman.com">
 
   <link rel="shortcut icon" href="favicon.ico">
 

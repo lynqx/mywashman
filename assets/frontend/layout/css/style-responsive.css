@@ -628,6 +628,9 @@
 
 /* BEGIN max width 480px */
 @media (max-width: 480px) {
+	
+.mobile_only {display:block !important}	
+
 	.pre-header .list-inline li {
 		display: block;
 		border: none;
@@ -803,3 +806,5 @@
 	}
 }
 /* END max width 320px */
+
+   

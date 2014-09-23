@@ -5,11 +5,6 @@
 
     <div class="main">
       <div class="container">
-        <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Pages</a></li>
-            <li class="active">Prices</li>
-        </ul>
         <!-- BEGIN CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
@@ -27,7 +22,7 @@
             <div class="content-page">
               <div class="row margin-bottom-40">
                 <!-- Pricing -->
-                <div class="col-md-5">
+                <div class="col-md-5 hidden-xs hidden-320 hidden-480 hidden-sm">
                   <div class="pricing pricing-active hover-effect">
                     <div class="pricing-head pricing-head-active">
                       <h3>Packages
@@ -43,34 +38,46 @@
                     </div>
                     <ul class="pricing-content list-unstyled">
                       <li>
-                        <i class="fa fa-heart"></i> Maximum number of Clothes
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Maximum number of Clothes
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> Pickup Frequency
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Pickup Frequency
                       </li>
                       <li>
-                        <i class="fa fa-heart"></i> Free Pickup / Delivery
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Free Pickup / Delivery
+                      </li>
+					  <li>
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> T-Shirts / Shirts / Tops / Skirts / Trousers
+                      </li>
+					  <li>
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Suits / Jackets (Per Pickup)
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> Suits / Jackets (Per Pickup)
-                      </li>
-                      <li>
-                        <i class="fa fa-heart"></i> Jeans / Denim
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Jeans / Denim
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Bed Sheets
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> African Attires (Ankara e.t.c)
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> Blankets / Duvee
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Agbada / Ofi
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Underwears /  Underlinings
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Towels
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> Machine Wash
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Bed Sheets
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Fragrance
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Blankets / Duvee
+                      </li>
+					  <li>
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Underwears /  Underlinings
+                      </li>
+					  <li>
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Machine Wash
+                      </li>
+					  <li>
+                        <i class="fa fa-dot-circle-o" style="color:#B8D441"></i> Fragrance
                       </li>
                     </ul>
                     <div class="pricing-footer">
@@ -90,7 +97,7 @@
                     <div class="pricing-head pricing-head-active">
                       <h3>Silver
                       <span>
-                         Officia deserunt mollitia
+                         <i class="fa fa-times"></i>
                       </span>
                       </h3>
                       <h4><i>&#8358;</i>3<i>,500</i>
@@ -101,39 +108,65 @@
                     </div>
                     <ul class="pricing-content list-unstyled">
                       <li>
-                        <i class="fa fa-heart"></i> Unlimited
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Number of clothes - </span> <b class="pull-right">Unlimited</b>
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> Two Times
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Pickup Frequency - </span> <b class="pull-right">Two Times</b>
                       </li>
                       <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Free Pickup/Delivery - </span><b class="pull-right"> Yes</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">T-Shirts / Shirts / Tops / Skirts / Trousers - </span><b class="pull-right"> Yes</b>
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> No
+                        <i class="fa fa-times"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Suits / Jackets (Per Pickup) - </span><b class="pull-right"> No</b>
                       </li>
                       <li>
-                        <i class="fa fa-heart"></i> No
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Jeans / Denim - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">African Attires (Ankara e.t.c) - </span> <b class="pull-right">Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> No
+                        <i class="fa fa-times"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Agbada / Ofi - </span> <b class="pull-right">No</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> No
+                        <i class="fa fa-check"style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Towels - </span> <b class="pull-right">Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-times"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Bed Sheets / Bed Linings - </span> <b class="pull-right">No</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Pearl
+                        <i class="fa fa-times"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Blankets / Duvee - </span> <b class="pull-right">No</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-times"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Underwears /  Underlinings - </span> <b class="pull-right"> No</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Machine Wash - </span> <b class="pull-right">Yes</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Fragrance - </span> <b class="pull-right"> Pearl</b>
                       </li>
                     </ul>
                     <div class="pricing-footer">
                       <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna .
+                         <br><br><br><br>
                       </p>
                       <a href="#" class="btn btn-primary">
                          Subscribe <i class="m-icon-swapright m-icon-white"></i>
@@ -146,7 +179,7 @@
                     <div class="pricing-head pricing-head-active">
                       <h3>Gold
                       <span>
-                         Officia deserunt mollitia
+                         <i class="fa fa-times"></i><i class="fa fa-times"></i>
                       </span>
                       </h3>
                       <h4><i>&#8358;</i>5<i>,000</i>
@@ -157,41 +190,67 @@
                     </div>
                     <ul class="pricing-content list-unstyled">
                       <li>
-                        <i class="fa fa-heart"></i> Unlimited
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Number of clothes - </span> <b class="pull-right">Unlimited</b>
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> Three Times
+                        <i class="fa fa-check"style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Pickup Frequency - </span> <b class="pull-right">Two Times</b>
                       </li>
                       <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Free Pickup/Delivery - </span> <b class="pull-right">Yes</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">T-Shirts / Shirts / Tops / Skirts / Trousers - </span><b class="pull-right"> Yes</b>
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> One
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Suits / Jackets (Per Pickup) - </span> <b class="pull-right">One</b>
                       </li>
                       <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check"style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Jeans / Denim - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">African Attires (Ankara e.t.c) - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> No
+                        <i class="fa fa-times"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Agbada / Ofi - </span> <b class="pull-right"> No</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> No
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Towels - </span> <b class="pull-right">Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Bed Sheets / Bed Linings - </span> <b class="pull-right">Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Cortney
+                        <i class="fa fa-times"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Blankets / Duvee - </span> <b class="pull-right"> No</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-times"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Underwears /  Underlinings - </span> <b class="pull-right">No</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Machine Wash - </span> <b class="pull-right">Yes</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Fragrance - </span> <b class="pull-right">Cortney</b>
                       </li>
                     </ul>
                     <div class="pricing-footer">
                       <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna.
+                         <br><br><br><br>
                       </p>
-                      <a href="#" class="btn btn-primary">
+                      <a href="subscribe.php" class="btn btn-primary">
                          Subscribe <i class="m-icon-swapright m-icon-white"></i>
                       </a>
                     </div>
@@ -202,7 +261,7 @@
                     <div class="pricing-head pricing-head-active">
                       <h3>Premium
                       <span>
-                         Officia deserunt mollitia
+                         <i class="fa fa-times"></i><i class="fa fa-times"></i><i class="fa fa-times"></i><i class="fa fa-times"></i><i class="fa fa-times"></i>
                       </span>
                       </h3>
                       <h4><i>&#8358;</i>10<i>,000</i>
@@ -213,39 +272,65 @@
                     </div>
                     <ul class="pricing-content list-unstyled">
                       <li>
-                        <i class="fa fa-heart"></i> Unlimited
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Number of clothes - </span> <b class="pull-right"> Unlimited </b>
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> Three Times
+                        <i class="fa fa-check"style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Pickup Frequency - </span> <b class="pull-right"> Three Times</b>
                       </li>
                       <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Free Pickup/Delivery - </span> <b class="pull-right"> Yes </b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">T-Shirts / Shirts / Tops / Skirts / Trousers - </span> <b class="pull-right"> Yes </b>
                       </li>
                       <li>
-                        <i class="fa fa-asterisk"></i> Two
+                        <i class="fa fa-check"style="color:#B8D441"></i>
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Suits / Jackets (Per Pickup) - </span> <b class="pull-right"> Two </b>
                       </li>
                       <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Jeans / Denim - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">African Attires (Ankara e.t.c) - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Agbada / Ofi - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> No
+                        <i class="fa fa-check"style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Towels - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-heart"></i> Yes
+                        <i class="fa fa-check"style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Bed Sheets / Bed Linings - </span> <b class="pull-right"> Yes</b>
                       </li>
 					  <li>
-                        <i class="fa fa-asterisk"></i> Treasure
+                        <i class="fa fa-check"style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Blankets / Duvee - </span> <b class="pull-right"> Yes</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-times"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Underwears /  Underlinings - </span> <b class="pull-right"> No</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Machine Wash - </span> <b class="pull-right"> Yes</b>
+                      </li>
+					  <li>
+                        <i class="fa fa-check" style="color:#B8D441"></i> 
+                        <span class="visible-xs-inline visible-sm-inline visible-md-inline hidden-1024">Fragrance - </span> <b class="pull-right"> Treasure</b>
                       </li>
                     </ul>
                     <div class="pricing-footer">
                       <p>
-                       This is our highest package for heavy laundries. <br>Select this package if you have a lot of laundries .
+                       <br><br><br><br>
                       </p>
                       <a href="#" class="btn btn-primary">
                          Subscribe <i class="m-icon-swapright m-icon-white"></i>
